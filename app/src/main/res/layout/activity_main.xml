@@ -1,37 +1,54 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    tools:context=".MainActivity">
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/H"
-        android:layout_width="90px"
-        android:layout_height="120px"
-        android:text="H"
-        android:background=""
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        />
-    <Button
-        android:id="@+id/Li"
-        android:layout_width="90px"
-        android:layout_height="120px"
-        android:text="Li"
-        android:layout_below="@+id/H"
-        android:layout_alignParentBottom="@+id/H"
-        android:background=""
+            <Button
+                android:id="@+id/H"
+                android:layout_width="90px"
+                android:layout_height="match_parent"
 
-        />
-    <Button
-        android:layout_width="90px"
-        android:layout_height="120px"
-        android:id="@+id/Na"
-        android:text="Na"
-        android:layout_below="@+id/Li"
-        android:background=""
+                android:background=""
+                android:text="H"
 
-        />
+                />
+
+            <Button
+                android:id="@+id/Li"
+                android:layout_width="90px"
+
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="@+id/H"
+                android:layout_below="@+id/H"
+                android:background=""
+                android:text="Li"
+
+                />
+
+            <Button
+                android:id="@+id/Na"
+                android:layout_width="@dimen/ele_width"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/Li"
+                android:background=""
+                android:text="Na"
+
+                />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
 
 </RelativeLayout>
