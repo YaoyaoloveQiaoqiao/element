@@ -29,9 +29,21 @@
             android:text="H"
 
             />
+        <Button
+            android:id="@+id/Hi"
+            android:layout_width="35dip"
+            android:layout_height="50dip"
+            android:layout_toRightOf="@+id/H"
+            android:layout_alignBottom="@+id/H"
+            android:background="@drawable/button"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:text="Hi"
+            />
 
         <Button
             android:id="@+id/Li"
+            android:textAllCaps="false"
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/H"
@@ -42,6 +54,7 @@
 
         <Button
             android:id="@+id/Na"
+            android:textAllCaps="false"
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/Li"
@@ -52,6 +65,7 @@
         />
         <Button
             android:id="@+id/K"
+            android:textAllCaps="false"
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/Na"
@@ -62,6 +76,7 @@
         />
         <Button
             android:id="@+id/Rb"
+            android:textAllCaps="false"
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/K"
@@ -71,6 +86,7 @@
             />
         <Button
             android:id="@+id/Cs"
+            android:textAllCaps="false"
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/Rb"
@@ -80,6 +96,7 @@
             />
         <Button
             android:id="@+id/Fr"
+            android:textAllCaps="false"
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/Cs"
