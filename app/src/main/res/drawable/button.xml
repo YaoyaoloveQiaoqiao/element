@@ -10,13 +10,12 @@
 
         </shape>
 
-    <item android:state_focused="true" android:color="#FFF" />
-    <item android:state_pressed="true" android:color="#FFF" />
-    <item android:color="#000" />
-    <!-- 按下时的背景图片
-    <item android:state_enabled="true" android:state_pressed="true" android:state_focused="true" android:drawable="@drawable/hi" />
-   按下时的背景图片 -->
-    <!-- <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/center_light" /> -->
+
+    <!-- 按下时的背景图片-->
+    <item android:state_enabled="true" android:state_pressed="true" android:state_focused="true" android:drawable="@drawable/i1" />
+    <!--按下时的背景图片-->
+
+     <!-- <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/center_light" /> -->
     <!-- 默认时的背景图片 -->
     <!--
         <shape android:shape="rectangle">
