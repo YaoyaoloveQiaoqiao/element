@@ -25,22 +25,11 @@
             android:id="@+id/H"
             android:layout_width="35dip"
             android:layout_height="50dip"
-            android:background="#FFFFCC"
+            android:background="@drawable/button1"
             android:text="H"
 
             />
-        <Button
-            android:id="@+id/Hi"
-            android:layout_width="35dip"
-            android:layout_height="50dip"
-            android:layout_toRightOf="@+id/H"
-            android:layout_alignBottom="@+id/H"
-            android:background="@drawable/button"
-            android:focusable="false"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:text="Hi"
-            />
+
 
         <Button
             android:id="@+id/Li"
@@ -48,8 +37,8 @@
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/H"
-            android:background="#FFCCCC"
-            android:layout_marginTop="3dip"
+            android:background="@drawable/button2"
+            android:layout_marginTop="1dip"
             android:text="Li"
         />
 
@@ -59,8 +48,8 @@
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/Li"
-            android:layout_marginTop="3dip"
-            android:background="#FFCCCC"
+            android:layout_marginTop="1dip"
+            android:background="@drawable/button3"
             android:text="Na"
 
         />
@@ -70,8 +59,8 @@
             android:layout_width="35dip"
             android:layout_height="50dip"
             android:layout_below="@+id/Na"
-            android:layout_marginTop="3dip"
-            android:background="#FFCCCC"
+            android:layout_marginTop="1dip"
+            android:background="@drawable/button4"
             android:text="K"
 
         />
