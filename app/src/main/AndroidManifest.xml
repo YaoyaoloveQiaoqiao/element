@@ -21,6 +21,10 @@
             android:name=".H">
 
         </activity>
+        <activity
+            android:name=".PopupWindowActivity">
+
+        </activity>
     </application>
 
 </manifest>
