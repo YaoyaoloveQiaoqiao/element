@@ -17,14 +17,12 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".H">
 
-        </activity>
-        <activity
-            android:name=".PopupWindowActivity">
+        <!--<activity-->
+            <!--android:name=".PopupWindowActivity">-->
 
-        </activity>
+        <!--</activity>-->
+
     </application>
 
 </manifest>
